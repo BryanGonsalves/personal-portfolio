@@ -1,6 +1,6 @@
 // Create your Body component here
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Avatar from '../assets/Software.png';
+import Avatar from '../assets/opt1.png';
 
 const Body = () => {
     return (
@@ -15,8 +15,8 @@ const Body = () => {
                     </div>
 
                     <div className="body-icons">
-                        <a href="https://www.educative.io/" target="_blank" rel="noreferrer" className="icon-link"><i><FaGithub /></i> </a>
-                        <a href="https://www.educative.io/" target="_blank" rel="noreferrer" className="icon-link"><i><FaLinkedin /></i></a>
+                        <a href="https://github.com/BryanGonsalves" target="_blank" rel="noreferrer" className="icon-link"><i><FaGithub /></i> </a>
+                        <a href="https://www.linkedin.com/in/bryangonsalves/" target="_blank" rel="noreferrer" className="icon-link"><i><FaLinkedin /></i></a>
                     </div>
                 </div>
             </div>

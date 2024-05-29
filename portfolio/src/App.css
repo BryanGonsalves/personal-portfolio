@@ -74,7 +74,7 @@ a, a:active, a:hover {
 /* Body Section */ 
 .body {
   position: relative;
-  background-color: #343434;
+  background-color: rgba(25, 94, 14, 0.734);
   display: flex;
   justify-content: center;
   width: 100%;
@@ -101,8 +101,8 @@ a, a:active, a:hover {
 }
 
 .body-img {
-  width: 100%;
-  transform: scale(.95);
+  width: 150%;
+  transform: scale(.99);
   border-radius: 50%;
 }
 
@@ -148,6 +148,7 @@ a, a:active, a:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: wheat;
 }
 
 .about-heading {  
@@ -181,11 +182,15 @@ a, a:active, a:hover {
   max-width: 400px;
   position: relative;
   display: inline-block;
-  border-radius: 60%;
+  border-radius: 1px;
   border: 1vh solid #cbd5e1;
+  background-color: rgba(25, 94, 14, 0.734);
 }
 .about .about-img .about-img-wrapper img {
-  width: 60%;
+  width: 80%;
+}
+.about .about-img .about-img-wrapper img:hover {
+  box-shadow: 0px 2px 10px rgba(25, 94, 14, 0.734);
 }
 /* End About Section  */
 /* Projects section */
