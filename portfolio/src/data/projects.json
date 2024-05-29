@@ -1,8 +1,8 @@
 [
     {
-        "name" : "Project 1",
+        "name" : "Portfolio using ReactJs",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        "link" : "https://github.com/BryanGonsalves/personal-portfolio"
     },
     {
         "name" : "Project 2",

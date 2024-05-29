@@ -183,7 +183,7 @@ a, a:active, a:hover {
   position: relative;
   display: inline-block;
   border-radius: 1px;
-  border: 1vh solid #cbd5e1;
+  border: 1vh solid rgba(20, 75, 10, 0.734);
   background-color: rgba(25, 94, 14, 0.734);
 }
 .about .about-img .about-img-wrapper img {
