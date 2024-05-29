@@ -6,6 +6,7 @@ import Project from './components/Projects.js';
 import Skill from './components/Skills.js';
 
 
+
 const App = () => {
   return (
     <div id="app" className="App">
@@ -14,7 +15,9 @@ const App = () => {
         <About/>
         <Project/>
         <Skill />
-        
+
+
+
         
     </div>
   );
