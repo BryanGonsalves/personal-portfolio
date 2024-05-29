@@ -164,33 +164,38 @@ a, a:active, a:hover {
 }
 
 .about .about-info .about-desc {
-  font-size: 1.7rem;
+  font-size: 1.9rem;
+  font-weight: 200; /* Increase font weight */
   line-height: 2rem;
   max-width: 50%;
   margin-top: -0.2rem;
   display: flex;
   align-items: center;
+  text-align: justify; /* Justify text */
 }
+
 .about .about-img {
     display: block;
 }
 
 .about .about-img .about-img-wrapper {
   padding: 15px;
+  margin-left: 300px;
   margin-top: 30px;
   height: auto;
   max-width: 400px;
   position: relative;
   display: inline-block;
   border-radius: 1px;
-  border: 1vh solid rgba(20, 75, 10, 0.734);
-  background-color: rgba(25, 94, 14, 0.734);
+  border: 1vh solid rgba(25, 94, 14, 0.734);
+  background-color: gray;
 }
 .about .about-img .about-img-wrapper img {
-  width: 80%;
+  width: 100%;
 }
 .about .about-img .about-img-wrapper img:hover {
-  box-shadow: 0px 2px 10px rgba(25, 94, 14, 0.734);
+  box-shadow: 0px 2px 10px green;
+  transform: translate(0, -10px);
 }
 /* End About Section  */
 /* Projects section */
@@ -200,7 +205,7 @@ a, a:active, a:hover {
   margin-top: -2rem;
 }
 .heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   padding: 1rem;
   letter-spacing: .3rem;
@@ -252,13 +257,13 @@ a, a:active, a:hover {
 }
 .description {
   color: #2b2d42;
-  font-size: 1rem;
+  font-size: 1.9rem;
   padding: 0rem 1rem;
   margin-bottom: 1.5rem;
 }
 .description-min {
   color: #2b2d42;
-  font-size: 1rem;
+  font-size: 1.9rem;
   padding: 0rem 1rem;
   margin-bottom: 1.5rem;
   overflow: hidden;
@@ -321,13 +326,13 @@ a, a:active, a:hover {
   }
   .description {
     color: #2b2d42;
-    font-size: 1rem;
+    font-size: 1.9rem;
     padding: 0rem 1rem;
     margin-bottom: 1.2rem;
   }
   .description-min {
     color: #2b2d42;
-    font-size: 1rem;
+    font-size: 1.9rem;
     padding: 0rem 1rem;
     margin-bottom: 1.2rem;
     overflow: hidden;
@@ -390,18 +395,18 @@ a, a:active, a:hover {
   .name {
     color: #2b2d42;
     margin: 10px 0;
-    font-size: 1.6rem;
+    font-size: 2rem;
     margin-bottom: -0.5rem;
   }
   .description {
     color: #2b2d42;
-    font-size: 1rem;
+    font-size: 1.9rem;
     padding: 0rem 1rem;
     margin-bottom: 1.5rem;
   }
   .description-min {
     color: #2b2d42;
-    font-size: 0.8rem;
+    font-size: 1.4rem;
     padding: 0rem 1rem;
     margin-bottom: 1.5rem;
     overflow: hidden;
@@ -517,7 +522,7 @@ a, a:active, a:hover {
   background-color: gray;
   padding: 1.2rem 1rem 1rem 1rem;
   margin: 1.2rem;
-    width: 10rem;
+    width: 15rem;
   border-radius: 8px;
   color: #ffffff;
 }

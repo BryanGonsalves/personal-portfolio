@@ -1,7 +1,7 @@
 [
     {
         "name" : "Portfolio using ReactJs",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Experience my interactive React portfolio, where HTML, CSS, and ReactJS converge to create a captivating showcase of my projects and skills. Dive into a world of seamless navigation and engaging design, complemented by captivating animations and meticulous attention to detail.",
         "link" : "https://github.com/BryanGonsalves/personal-portfolio"
     },
     {
@@ -24,4 +24,5 @@
         "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "link" : "https://github.com/"
     }
+    
 ]

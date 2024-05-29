@@ -1,5 +1,5 @@
 
-import IMG from '../assets/opt1.png';
+import IMG from '../assets/nobg1.png';
 
 const About = () => {
     return (
