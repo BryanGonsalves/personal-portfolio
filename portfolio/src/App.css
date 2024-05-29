@@ -195,7 +195,7 @@ a, a:active, a:hover {
 }
 .about .about-img .about-img-wrapper img:hover {
   box-shadow: 0px 2px 10px green;
-  transform: translate(-5, -5px);
+  transform: translate(-5px, -5px);
 }
 /* End About Section  */
 /* Projects section */
