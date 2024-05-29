@@ -1,2 +1,2 @@
 # personal-portfolio
-Personal Portfolio using ReactJs
+Personal Portfolio using ReactJs and NPM
