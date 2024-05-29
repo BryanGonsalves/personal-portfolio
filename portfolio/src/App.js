@@ -3,6 +3,8 @@ import About from './components/About.js';
 import Body from './components/Body.js';
 import Header from './components/Header.js';
 import Project from './components/Projects.js';
+import Skill from './components/Skills.js';
+
 
 const App = () => {
   return (
@@ -11,6 +13,7 @@ const App = () => {
         <Body />
         <About/>
         <Project/>
+        <Skill />
         
         
     </div>
