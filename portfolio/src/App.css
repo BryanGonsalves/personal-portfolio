@@ -14,46 +14,46 @@ a, a:active, a:hover {
   top: 0;
   left: 0;
   right: 0;
-  height: 5rem;
+  height: 6rem;
   z-index: 2;
   background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  padding: 0 2.5rem; 
+  box-sizing: border-box;
 }
 
 .header-logo {
-  padding: 5px 28px;
-  position: fixed;
   display: flex;
-  justify-content: flex-start;
+  align-items: center; 
 }
 
 .header-name {
   color: #edf2f4;
-  border: 3px solid #edf2f4;
-  padding: 0.7em;
-  font-size: 1rem;
-  animation: show 0.5s;
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border: 1px; 
+  font-family: cursive;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0;
 }
 
+
 .header-container {
-  position: relative;
   display: flex;
   justify-content: flex-end;
-  margin: 0 auto;
   align-items: center;
-  padding: 1.65rem;
-  text-align: right;
-  color: lightgrey;
-  z-index: 2;
-  transition: all .2s linear;
+  margin: 0;
 }
 
 .nav-item {
   position: relative;
   display: inline-block;
-  font-size: 1.3rem;
+  font-size: 1.8rem; 
   margin-right: 2rem;
 }
+
+
 
 .nav-item:after {
   content: "";
