@@ -7,8 +7,8 @@ const Footer = () => {
         <footer id="footer" className="footer">
             <div className="footer-contact-info">
                 <h1 className="footer-heading">Connect With Me</h1>
-                <p className="footer-contact-access">Email: test@educative.io</p>
-                <p className="footer-contact-access">Mobile: 1234 1234 1234</p>
+                <p className="footer-contact-access">Email: bryangonsalves01@gmail.com</p>
+                <p className="footer-contact-access">Mobile: 7022542550</p>
             </div>
             <div>
                 <h1>Social Links</h1>
