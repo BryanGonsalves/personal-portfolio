@@ -5,9 +5,9 @@
         "link" : "https://github.com/BryanGonsalves/personal-portfolio"
     },
     {
-        "name" : "Project 2",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        "name" : "Stock Market App Using ReactJs & Finance API",
+        "description": "A dynamic stock market application built using ReactJS, Bootstrap, and Chart.js, leveraging the Yahoo Finance API to provide real-time data and visualizations. Features include search functionality, trending stock indices, and interactive charts for a seamless user experience.",
+        "link" : "https://github.com/BryanGonsalves/stock-market-app"
     },
     {
         "name" : "Project 3",
