@@ -598,7 +598,7 @@ a, a:active, a:hover {
 .footer {
   min-height: 20vh;
   width: 100%;
-  background-color: black;
+  background-color: rgb(8, 68, 8);
   color: white;
   flex-direction: column;
   text-align: center;
