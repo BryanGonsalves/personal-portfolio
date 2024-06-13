@@ -181,7 +181,7 @@ a, a:active, a:hover {
 .about .about-img .about-img-wrapper {
   padding: 15px;
   margin-left: 300px;
-  margin-top: 30px;
+  margin-top: 10px;
   height: auto;
   max-width: 400px;
   position: relative;
@@ -195,7 +195,7 @@ a, a:active, a:hover {
 }
 .about .about-img .about-img-wrapper img:hover {
   box-shadow: 0px 2px 10px green;
-  transform: translate(-5px, -5px);
+  transform: translate(-1px, -1px);
 }
 /* End About Section  */
 /* Projects section */
@@ -215,7 +215,7 @@ a, a:active, a:hover {
 }
 .projects-container .project {
   position: relative;
-  height: 38vh;
+  height: 45vh; /* Increased height */
   border: 0.3rem solid black;
   border-radius: 20px;
   margin: 0 1rem 0 0;
@@ -223,6 +223,7 @@ a, a:active, a:hover {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 0.5rem; /* Reduced padding */
 }
 .projects-container .project .content {
   position: relative;
@@ -230,11 +231,13 @@ a, a:active, a:hover {
   flex-direction: column;
   justify-content: center;
   margin-top: 1.2rem;
-  height: 85%;
-  border-radius: 15px;
+  height: 100%; /* Adjusted height to fill the project card */
+  width: 100%; /* Ensure content takes full width */
+  border-radius: 10px;
   transition: all 0.5s;
   cursor: auto;
   overflow: hidden;
+  padding: 0.5rem; /* Reduced padding */
 }
 .content:hover {
   transform: translate(0, -10px);
@@ -244,27 +247,27 @@ a, a:active, a:hover {
   display: block;
   padding-top: 10%;
 }
-.projects-container .project .content img{
+.projects-container .project .content img {
   display: block;
   margin: 0 auto;
   width: 31%;
 }
 .name {
   color: #2b2d42;
-  margin: 10px 0;
+  margin: 5px 0; /* Reduced margin */
   font-size: 1.6rem;
   margin-bottom: -0.5rem;
 }
 .description {
   color: #2b2d42;
   font-size: 1.9rem;
-  padding: 0rem 1rem;
+  padding: 0.5rem 1rem; /* Reduced padding */
   margin-bottom: 1.5rem;
 }
 .description-min {
   color: #2b2d42;
   font-size: 1.9rem;
-  padding: 0rem 1rem;
+  padding: 0.5rem 1rem; /* Reduced padding */
   margin-bottom: 1.5rem;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -284,222 +287,123 @@ a, a:active, a:hover {
 }
 .project-button:hover,
 .project-button:active,
-.project-button:focus{
+.project-button:focus {
   background-color: #ef233c;
   border-color: #ef233c;
   color: white;
 }
+
 @media (min-width: 500px) and (max-width: 650px) { 
   .projects-container .project {
-    position: relative;
-    height: 38vh;
-    border: 0.3rem solid black;
-    border-radius: 20px;
-    margin: 0 1rem 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    height: 45vh; /* Increased height */
+    padding: 0.5rem; /* Reduced padding */
   }
   .projects-container .project .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: -1.2rem;
-    height: 88%;
-    border-radius: 15px;
-    transition: all 0.5s;
-    cursor: auto;
-    overflow: hidden;
+    height: 100%; /* Adjusted height to fill the project card */
+    padding: 0.5rem; /* Reduced padding */
   }
-  .projects-container .project .content img{
-    display: block;
-    margin: 0 auto;
+  .projects-container .project .content img {
     width: 31%;
   }
   .name {
-    color: #2b2d42;
-    margin: 10px 0;
     font-size: 1.4rem;
     margin-bottom: -0.5rem;
   }
   .description {
-    color: #2b2d42;
     font-size: 1.9rem;
-    padding: 0rem 1rem;
     margin-bottom: 1.2rem;
   }
   .description-min {
-    color: #2b2d42;
     font-size: 1.9rem;
-    padding: 0rem 1rem;
     margin-bottom: 1.2rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    line-clamp: 3; 
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
   }
   .project-button {
-    width: 8rem;
     font-size: 1.05rem;
-    font-weight: 800;
     padding: 3px 25px;
-    border: 1px solid rgba(30, 39, 46, 0.7);
-    border-radius: 8%;
-    color: rgba(30, 39, 46, 0.7);
   }
 }
+
 @media (min-width: 1000px) { 
   .projects-container {
     padding: 3rem;
   }
   .projects-container .project {
-    position: relative;
-    height: 38vh;
-    border: 0.3rem solid black;
-    border-radius: 20px;
-    margin: 0 1rem 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    height: 45vh; /* Increased height */
+    padding: 0.5rem; /* Reduced padding */
   }
   .projects-container .project .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: -1.2rem;
-    height: 85%;
-    border-radius: 15px;
-    transition: all 0.5s;
-    cursor: auto;
-    overflow: hidden;
+    height: 100%; /* Adjusted height to fill the project card */
+    padding: 0.5rem; /* Reduced padding */
   }
   .content:hover {
     transform: translate(0, -10px);
   }
   .content:before {
-    content: "";
-    display: block;
     padding-top: 10%;
   }
-  .projects-container .project .content img{
-    display: block;
-    margin: 0 auto;
+  .projects-container .project .content img {
     width: 31%;
   }
   .name {
-    color: #2b2d42;
-    margin: 10px 0;
     font-size: 2rem;
     margin-bottom: -0.5rem;
   }
   .description {
-    color: #2b2d42;
     font-size: 1.9rem;
-    padding: 0rem 1rem;
     margin-bottom: 1.5rem;
   }
   .description-min {
-    color: #2b2d42;
     font-size: 1.4rem;
-    padding: 0rem 1rem;
     margin-bottom: 1.5rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    line-clamp: 3; 
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
   }
   .project-button {
-    width: 8rem;
     font-size: 1.2rem;
-    font-weight: 800;
     padding: 4px 25px;
-    border: 1px solid rgba(30, 39, 46, 0.7);
-    border-radius: 8%;
-    color: rgba(30, 39, 46, 0.7);
   }
 }
+
 @media (min-width: 2000px) { 
   .projects-container {
     padding: 3rem;
   }
   .projects-container .project {
-    position: relative;
-    height: 38vh;
-    border: 0.3rem solid black;
-    border-radius: 20px;
-    margin: 0 1rem 0 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    height: 45vh; /* Increased height */
+    padding: 0.5rem; /* Reduced padding */
   }
   .projects-container .project .content {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin-top: -1.2rem;
-    height: 85%;
-    border-radius: 15px;
-    transition: all 0.5s;
-    cursor: auto;
-    overflow: hidden;
+    height: 100%; /* Adjusted height to fill the project card */
+    padding: 0.5rem; /* Reduced padding */
   }
   .content:hover {
     transform: translate(0, -10px);
   }
   .content:before {
-    content: "";
-    display: block;
     padding-top: 10%;
   }
-  .projects-container .project .content img{
-    display: block;
-    margin: 0 auto;
+  .projects-container .project .content img {
     width: 35%;
   }
   .name {
-    color: #2b2d42;
-    margin: 10px 0;
     font-size: 1.6rem;
     margin-bottom: -0.2rem;
   }
   .description {
-    color: #2b2d42;
     font-size: 1.2rem;
-    padding: 0rem 1rem;
     margin-bottom: 1.7rem;
   }
   .description-min {
-    color: #2b2d42;
     font-size: 1.2rem;
-    padding: 0rem 1rem;
     margin-bottom: 1.7rem;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    line-clamp: 3; 
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
   }
   .project-button {
-    width: 8rem;
     font-size: 1.4rem;
-    font-weight: 800;
     padding: 7px 25px;
-    border: 1px solid rgba(30, 39, 46, 0.7);
-    border-radius: 8%;
-    color: rgba(30, 39, 46, 0.7);
   }
 }
+
 /* Skills section */
 .skills {
   background-color: white;
