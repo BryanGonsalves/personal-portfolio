@@ -1,6 +1,6 @@
 [
     {
-        "name" : "Portfolio using ReactJs",
+        "name" : "Portfolio Using ReactJs",
         "description": "Experience my interactive React portfolio, where HTML, CSS, and ReactJS converge to create a captivating showcase of my projects and skills. Dive into a world of seamless navigation and engaging design, complemented by captivating animations and meticulous attention to detail.",
         "link" : "https://github.com/BryanGonsalves/personal-portfolio"
     },
@@ -10,9 +10,9 @@
         "link" : "https://github.com/BryanGonsalves/stock-market-app"
     },
     {
-        "name" : "Project 3",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        "name" : "Multiplayer Trivia Game Using Express.js, SocketIO & Handlebars",
+        "description" : "A interactive live multiplayer trivia game built using Express.js, Socket.io, and Handlebars templates, utilizing the OpenTrivia Database API to deliver engaging and challenging questions. Features include real-time player interactions, a seamless user experience with live score updates, and an intuitive interface for both question display and answer submission.",
+        "link" : "https://github.com/BryanGonsalves/live-trivia-game"
     },
     {
         "name" : "Project 4",
