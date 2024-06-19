@@ -142,7 +142,7 @@ a, a:active, a:hover {
 /* End Body Section */ 
 /* About Section  */
 .about {
-  height: 72vh;
+  height: 75vh;
   width: 100%;
   padding: 4rem 5rem;
   display: flex;
@@ -201,7 +201,7 @@ a, a:active, a:hover {
 /* Projects section */
 .projects {
   background-color: #e9d5a1;
-  height: 65vh;
+  height: 70vh;
   margin-top: -2rem;
 }
 .heading {
