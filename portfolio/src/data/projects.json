@@ -15,9 +15,10 @@
         "link" : "https://github.com/BryanGonsalves/live-trivia-game"
     },
     {
-        "name" : "Project 4",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+            "name": "Location Tracker Using ReactJs, Leaflet.js & OpenStreetMap API",
+            "description": "An interactive location tracker built using ReactJs, Leaflet.js, and the OpenStreetMap API, integrated with Express.js for backend functionality. This application allows users to sign in, add locations they have visited, and visualize these locations on a map, forming a parallelogram with other visited locations. Users can also share their locations with friends, enabling collaborative tracking and exploration. The app features real-time location updates, an intuitive interface for adding and viewing locations, and seamless integration with social sharing functionalities.",
+            "link": "https://github.com/BryanGonsalves/location-tracker"
+   
     },
     {
         "name" : "Project 5",
