@@ -21,9 +21,12 @@
    
     },
     {
-        "name" : "Project 5",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, \nsed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "link" : "https://github.com/"
+        
+            "name": "Dynamic Giphy Search App Using NextJs & Giphy API",
+            "description": "A powerful and interactive Giphy search application built with Next.js and the Giphy API. This app allows users to search for and display a grid of GIFs, generating dynamic URLs for each search query. These URLs can be shared with friends, providing a seamless way to share favorite GIFs and search results.",
+            "link": "https://github.com/BryanGonsalves/Dynamic-Giphy-Pages"
+          
+          
     }
     
 ]
