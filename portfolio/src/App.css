@@ -164,9 +164,9 @@ a, a:active, a:hover {
 }
 
 .about .about-info .about-desc {
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 200; /* Increase font weight */
-  line-height: 2rem;
+  line-height: 2.5rem;
   max-width: 50%;
   margin-top: -0.2rem;
   display: flex;
